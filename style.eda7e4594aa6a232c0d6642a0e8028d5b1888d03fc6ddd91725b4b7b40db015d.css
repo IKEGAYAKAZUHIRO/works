@@ -88,6 +88,8 @@ article > .cover .cover-label-g, .newest > a > .cover .cover-label-g { transform
 @media (max-width:600px) {   /* スマホは note と同じく画像を画面の端まで広げ、タイトルの字を小さく */
   .cover { width:calc(100% + 2rem); max-width:none; margin-left:-1rem; margin-right:-1rem; border-radius:0; }
   article h1 { font-size:1.45rem; }
+  .content h2 { font-size:1.15rem; }   /* 題だけ縮めると小見出し（1.35rem）とほぼ同じ大きさに見えるので、一緒に縮める */
+  .content h3 { font-size:1.02rem; }
   .site-header { padding-inline:1rem; }
   .posts li { grid-template-columns:1fr 6.5rem; gap:.8rem; }
   .posts .thumb .cover { width:100%; margin:0; }
