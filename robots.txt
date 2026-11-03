@@ -1,0 +1,6 @@
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+
+# AI 向けの案内（記事の一覧と Markdown 版へのリンク）: https://works.ikegaya.tokyo/llms.txt
+Sitemap: https://works.ikegaya.tokyo/sitemap.xml

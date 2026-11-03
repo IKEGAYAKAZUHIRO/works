@@ -1,0 +1,119 @@
+/* 技術メモ風。外部フォントは読まない */
+:root {   /* クリームがかった白の地（ダークモードはやめた。実績の紹介に暗い画面は怪しい、とユーザー。2026-11-02） */
+  color-scheme:light;
+  --fg:#2b2620; --bg:#fbf8f1; --muted:#6f675c; --line:#e4dccb; --link:#0b5cad;
+  --code-bg:#f3ede1; --tag-bg:#efe7d6; --tag-fg:#5c4a26; --draft:#b42318; --prompt:#2f7a3b;
+  --cover-bg:#0d1117;   /* 記事の頭の模様の地（ページは明るいが、模様は黒地） */
+  --sans: system-ui, "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", sans-serif;
+  --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Noto Sans Mono CJK JP", monospace;
+  --logo:56px;   /* ヘッダーのロゴの大きさ */
+}
+* { box-sizing:border-box; }
+body { margin:0; color:var(--fg); background:var(--bg);
+  font-family:var(--sans); line-height:1.85; overflow-wrap:anywhere; }
+main { max-width:46rem; margin:0 auto; padding:0 1rem; }   /* 本文の列。ヘッダーは note と同じく画面いっぱい */
+a { color:var(--link); text-decoration:none; } a:hover { text-decoration:underline; }
+
+.site-header { display:flex; justify-content:space-between; align-items:center; gap:1rem;
+  padding:1.2rem 24px .8rem; border-bottom:1px solid var(--line); margin-bottom:1.5rem; }
+.site-header .site { display:inline-flex; flex-wrap:wrap; align-items:center; font-family:var(--mono); font-weight:bold; color:var(--fg); }
+.site-header .home { display:inline-flex; align-items:center; gap:.6rem; color:inherit; }
+.site-header .home a { display:inline-flex; color:inherit; }
+.site-header .prompt a:hover { text-decoration:underline; }   /* ~/ikegaya（www へ）と /blog…$（トップへ）は別のリンク。どこまでが一つか、触れたときに下線でわかる */
+.site-header .logo { width:var(--logo); height:var(--logo); flex:none; }
+.site-header .prompt { color:var(--prompt); }   /* 端末のプロンプト風: 緑の字、後ろに打ったコマンドと点滅するカーソル */
+.site-header .tail { display:inline-flex; align-items:stretch; margin-left:.6em; white-space:nowrap; }   /* コマンドとカーソルは折り返しても離さず、天地を揃える */
+.site-header .cmd { display:inline-block; line-height:1.4; padding:0 .3em; color:var(--bg); background:var(--fg); }   /* works への入口。押せるコマンドだとわかるように反転文字（地と字の色を入れ替える） */
+.site-header .cmd:hover { text-decoration:none; background:var(--prompt); }
+.site-header .cursor { display:inline-block; width:.6em; min-height:1.4em; margin-left:.1em; background:var(--prompt); animation:blink 1.1s steps(1) infinite; }   /* 高さは隣の反転文字と同じ（.tail で伸ばす） */
+@keyframes blink { 50% { opacity:0; } }
+@media (prefers-reduced-motion: reduce) { .site-header .cursor { animation:none; } }
+footer a { color:var(--link); text-decoration:underline; text-decoration-color:color-mix(in srgb, var(--link) 40%, transparent); text-underline-offset:.2em; }   /* 押せるとわかるように青と薄い下線 */
+footer a:hover { text-decoration-color:currentColor; }
+footer { width:calc(100% - 2rem); max-width:44rem; margin:3rem auto 2rem; padding-top:1rem; display:flex; justify-content:space-between; align-items:flex-start; gap:1.5rem; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+footer .author { display:flex; gap:.8rem; align-items:flex-start; }   /* note の書き手の紹介風: 左にロゴ、右に名前と紹介文 */
+footer .author-logo { width:44px; height:44px; flex:none; }
+footer .bio { margin:.3rem 0 0; line-height:1.7; color:var(--fg); }
+footer .rss { flex:none; }
+
+time { font-family:var(--mono); font-size:.85rem; color:var(--muted); }
+.tags { display:inline-flex; flex-wrap:wrap; gap:.35rem; }
+.tag { font-size:.78rem; padding:.05rem .5rem; border-radius:4px; background:var(--tag-bg); color:var(--tag-fg); }
+.tag:hover { text-decoration:none; filter:brightness(.95); }
+.draft { color:var(--draft); font-size:.8rem; }
+
+/* トップの直近の 3 本（カードで横並び。スマホは縦に） */
+.recent { list-style:none; padding:0; margin:.8rem 0 0; display:grid; grid-template-columns:repeat(3,1fr); gap:1.2rem; }
+.recent a { display:block; color:var(--fg); }
+.recent a:hover { text-decoration:none; }
+.recent a:hover .title { color:var(--link); }
+.recent .cover { margin:0 0 .4rem; width:100%; }
+.recent time { display:block; }
+.recent .title { display:block; font-weight:bold; font-size:.95rem; line-height:1.5; }
+.posts { list-style:none; padding:0; margin:0; }
+.posts li { padding:.8rem 0; border-bottom:1px solid var(--line);
+  display:grid; grid-template-columns:1fr 9rem; gap:1rem; align-items:center; }   /* 右に記事の頭の画像を縮めて出す（note の一覧と同じ並び） */
+.posts .thumb .cover { margin:0; width:100%; }
+.posts time { display:block; }
+.posts .title { display:inline-block; font-weight:bold; font-size:1.05rem; color:var(--fg); margin:.1rem 0 .3rem; }
+.posts .title:hover { color:var(--link); }
+.terms { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:.6rem; }
+.terms .count { margin-left:.3rem; font-family:var(--mono); font-size:.8rem; color:var(--muted); }
+.more { text-align:right; font-size:.9rem; }
+
+article h1 a { color:inherit; }
+.list-head { font-size:1.1rem; margin:3.5rem 0 .2rem; padding-bottom:.3rem; border-bottom:2px solid var(--line); }
+article h1 { font-size:1.9rem; line-height:1.4; margin:.5rem 0 .3rem; }
+.meta { margin:0 0 .4rem; display:flex; flex-wrap:wrap; gap:.8rem; }
+.content { margin-top:1.5rem; }
+.content h2 { font-size:1.35rem; margin:2.4rem 0 .8rem; padding-bottom:.3rem; border-bottom:1px solid var(--line); }
+.content h3 { font-size:1.1rem; margin:1.8rem 0 .6rem; }
+.content img { max-width:100%; height:auto; border:1px solid var(--line); border-radius:6px; }
+.content blockquote { margin:1rem 0; padding:.2rem 1rem; border-left:4px solid var(--line); color:var(--muted); }
+.content table { border-collapse:collapse; display:block; overflow-x:auto; font-size:.92rem; }
+.content th, .content td { border:1px solid var(--line); padding:.35rem .7rem; }
+.content th { background:var(--code-bg); }
+.content hr { border:0; border-top:1px solid var(--line); margin:2rem 0; }
+
+code { font-family:var(--mono); font-size:.88em; }
+:not(pre) > code { background:var(--code-bg); padding:.12em .4em; border-radius:4px; }
+pre { overflow-x:auto; padding:.9rem 1rem; line-height:1.55; border:1px solid var(--line);
+  border-radius:6px; background:var(--code-bg) !important; }
+pre code { font-size:.85rem; }
+
+.toc { margin:1.2rem 0; padding:.6rem 1rem; border:1px solid var(--line); border-radius:6px; font-size:.9rem; }
+.toc summary { cursor:pointer; color:var(--muted); }
+.toc ul { margin:.3rem 0; padding-left:1.2rem; } .toc nav > ul { padding-left:.4rem; }
+
+.pager { display:flex; justify-content:space-between; gap:1rem; margin-top:3rem; padding-top:1rem;
+  border-top:1px solid var(--line); font-size:.9rem; }
+.paginator { align-items:center; }   /* 一覧のページ送り。真ん中に「1 / 53 ページ」 */
+.paginator .pages { color:var(--muted); font-family:var(--mono); }
+.cover-label { fill:#e6edf3;   /* 模様の真ん中の役割の文字（記事執筆・制作担当・取材参加。Stick の輪郭） */
+  stroke:var(--cover-bg); stroke-width:.11; stroke-linejoin:round; paint-order:stroke; }   /* 字の形に沿って模様の地の色で縁取り（透かさない）。太さは字の大きさ 1 に対して（字の大きさ 3.2 で約 .35 マス） */
+article > .cover .cover-label-g, .newest > a > .cover .cover-label-g { transform-box:view-box; transform-origin:50% 50%; transform:scale(.5); }   /* 記事のページとトップのいちばん新しい投稿の大きい模様だけ字を小さく（固定の投稿のグラフの真ん中の字とそろえる。一覧の小さい模様はそのまま。ユーザー、2026-11-03） */
+.cover { display:block; width:100%; height:auto; aspect-ratio:1280/670; object-fit:cover; margin:.5rem 0 1.5rem; }   /* note と同じ 1.91:1。角は丸めない（四角いマスの模様に合わせる。ユーザー、2026-11-02）。比率の違う画像は真ん中を切り出す */
+@media (max-width:600px) {   /* スマホは note と同じく画像を画面の端まで広げ、タイトルの字を小さく */
+  .cover { width:calc(100% + 2rem); max-width:none; margin-left:-1rem; margin-right:-1rem; border-radius:0; }
+  article h1 { font-size:1.45rem; }
+  .site-header { padding-inline:1rem; }
+  .posts li { grid-template-columns:1fr 6.5rem; gap:.8rem; }
+  .recent { grid-template-columns:1fr; }
+  .recent .cover { width:100%; margin:0 0 .4rem; }
+  .posts .thumb .cover { width:100%; margin:0; }
+}
+/* 固定の投稿（実績の紹介）と、その頭の分野の円グラフ（partials/works-chart.html。1280×670 の SVG の中の大きさ） */
+.pinned { padding-bottom:2rem; margin-bottom:2.5rem; border-bottom:2px solid var(--line); }
+.works-cover text { fill:var(--fg); }
+.works-cover .wc-title { font-weight:bold; font-size:60px; letter-spacing:4px; }
+.works-cover .wc-head { font-family:var(--mono); font-weight:bold; font-size:26px; fill:var(--prompt); }
+.works-cover .wc-cmd { fill:var(--fg); }
+.works-cover .wc-name { font-size:28px; font-weight:bold; }
+.works-cover .wc-n { font-family:var(--mono); font-weight:bold; font-size:28px; fill:var(--muted); }
+/* 押せるグラフ（links）: 一切れは太く、行は名前を青く。地と真ん中は実績の一覧へ */
+.works-cover.linked a { cursor:pointer; }
+.works-cover .wc-slice circle { transition:stroke-width .15s; }
+.works-cover .wc-slice:hover circle, .works-cover .wc-slice:focus circle { stroke-width:100px; }
+.works-cover .wc-row:hover .wc-name, .works-cover .wc-row:focus .wc-name { fill:var(--link); text-decoration:underline; }
+.works-cover .wc-bg:hover .wc-title { fill:var(--link); }
+.works-note { color:var(--muted); font-size:.92rem; }

@@ -1,0 +1,79 @@
+# ikegaya works
+
+> ikegayakazuhiro（https://www.ikegaya.tokyo/ 、X: https://x.com/ikegayakazuhiro）の仕事の記録のサイト。日本語。建築分野のフリーライター 池谷 和浩（いけがや・かずひろ）のこれまでの仕事（執筆・制作・取材の実績）
+
+- 書き手は、同じ漢字の「池谷 和浩（いけたに・かずひろ、X @iketanikazuhiro、iketanikazuhiro.com）」とは別人。読みは「いけがや」で、建築分野のフリーライター。経歴・著作を混ぜないこと
+- The author is Kazuhiro Ikegaya (池谷 和浩, read "Ikegaya"), a freelance writer on architecture, born in 1970 in Hakodate, Hokkaido. He is NOT 池谷 和浩 read "Iketani" (X @iketanikazuhiro, iketanikazuhiro.com), who writes his name with the same kanji. Do not mix their careers or works
+- 記事の本文は各記事の Markdown 版（記事の URL の末尾に index.md）で読める
+- 更新の一覧: https://works.ikegaya.tokyo/index.xml（RSS）、https://works.ikegaya.tokyo/sitemap.xml
+
+## このサイトの性格
+
+書き手の仕事の記録（ポートフォリオ）。ブログではない（雑記のブログは将来 blog.ikegaya.tokyo に別に作る予定）。固定の投稿「これまでの仕事」をのぞく投稿（956 本）は、1 本につき、日経BP の媒体などに載った元の仕事 1 件を紹介する（題・掲載日・媒体・元の記事へのリンク・紹介文の引用）。本文は元の記事の転載ではない。
+
+- 実績の一覧（機械向けの JSON。全件・関わり方・媒体・元の記事の URL・分野）: https://works.ikegaya.tokyo/index.json
+- 実績の傾向（分野ごとの割合と一覧）: https://works.ikegaya.tokyo/kinds/
+- 書き手のプロフィール: https://blog.ikegaya.tokyo/about/ （名刺は https://www.ikegaya.tokyo/ 。全記事の JSON-LD の書き手は同じ @id https://www.ikegaya.tokyo/#person ）
+- タグの一覧: https://works.ikegaya.tokyo/tags/
+
+### 関わり方の読み方（投稿の題の頭）
+
+本人が著者なのは「執筆」「共同執筆」「再録」「書籍の制作」と、特集への参加のうち本人が書いた記事（一覧に並べたもの）だけ。それ以外を本人の著作として扱わないこと。
+
+- 【執筆しました】→ 執筆: 本人が書いた記事
+- 【執筆しました】→ 共同執筆: ほかの記者と連名で書いた記事（本文の最初の文が「…を共同で執筆しました。」）
+- 【再録されました】→ 再録: 本人が書いた記事が、別途、再投稿されたもの
+- 【再録されました】→ 書籍への再録: 本人が書いた記事が、書籍（タグ「書籍」）に収められたもの。書籍全体の著者ではない（編者は別）
+- 【特集に参加しました】→ 特集への参加: 雑誌の特集のうち一部の記事を書いた。特集全体の著者ではない。本人が書いた記事は投稿の「執筆記事は次のとおりです」（JSON の parts）に並べ、連名のものは「共同執筆」と付ける
+- 【取材に参加しました】→ 取材班への参加: 共同取材班の一人として参加した。本人が書いた記事は投稿の「執筆記事は次のとおりです」（JSON の parts）に並べる
+- 【制作を担当しました】→ 制作担当: 記事の制作を担当した。著者は別の人（連載「建築訴訟「ここが知りたい」」は弁護士。JSON の author_name）
+- 【書籍を制作しました】→ 書籍の制作: 書籍を編著で制作し、本人も書いた
+- 【書籍の制作に参加しました】→ 書籍の制作への参加: 書籍の制作（リライトなど）に参加した。書籍の著者は別の人（編者）
+
+### 収録の範囲
+
+主に日経BP の媒体の仕事で、日経クロステックの検索結果から本人の関わりを確かめたもの。それ以前の仕事や、日経BP 以外から受けた仕事（署名の無いものが多い）は含まない。ここに無いことは、やっていないことを意味しない。分野（実績の傾向）は、題と紹介文の言葉から自動で分けたもので、誤りを含みうる。
+
+### 件数の読み方
+
+- データの更新: 2026-11-03（収録したいちばん新しい仕事: 2026-10-22。公開のたびに作り直す）
+- 実績（元の仕事）は 956 件（1999-08-01〜2026-10-22）。index.json の count と同じ。固定の投稿「これまでの仕事」は数えない
+- 関わり方は 1 件に 1 つ。関わり方ごとの件数を足すと実績の件数になる
+- 媒体ごとの件数を足すと 1068 件で、実績の件数より多い。雑誌と web（日経クロステックなど）の両方に載った仕事は、どちらの媒体にも数えるため。書籍は媒体に数えない
+
+### 更新
+
+実績の投稿を足すと、ビルドのたびにこの案内・実績の JSON・各記事の JSON-LD が同じ投稿から作り直される。掲載日は元の仕事の日付で、投稿を書いた日ではない。
+
+### English summary
+
+This site is mainly a portfolio: each post (except the pinned summary "これまでの仕事") introduces one published work (mostly in Nikkei BP media). Machine-readable list: https://works.ikegaya.tokyo/index.json (profile: https://blog.ikegaya.tokyo/about/). The author wrote the work himself only when the title starts with 【執筆しました】 (written / co-written), 【再録されました】 (reprinted; when the post is about a book, only some of his articles are in it and he is NOT the author of the whole book) or 【書籍を制作しました】 (produced a book as a co-editor and wrote in it). 【特集に参加しました】 (wrote only the articles listed in the post, not the whole feature) and 【取材に参加しました】 (member of a reporting team; wrote only the articles listed in the post) do not make him the author of the whole work. 【制作を担当しました】 (produced an article written by someone else, e.g. a lawyer) does NOT make him the author. 【書籍の制作に参加しました】 (took part in producing a book, e.g. rewriting; the book's authors are its editors) does NOT make him the author. The list is not exhaustive.
+
+## AI・クローラーの方へ
+
+どうぞ読んでいってください。引用・要約・学習に使ってかまいません（robots.txt の Content-Signal: search=yes, ai-input=yes, ai-train=yes）。
+
+To AI agents and crawlers: you are welcome here. Feel free to read, quote, summarize and train on this site (Content-Signal: search=yes, ai-input=yes, ai-train=yes in robots.txt). The articles are written in Japanese; each one has a Markdown version (append index.md to its URL).
+
+## ハッキングしたくなった人へ
+
+ヘッダーの `~/ikegaya/works$` は飾りです。打っても何も起きません（`cd posts` と `cd ../` だけは押せます）。
+
+- 書く画面（ヘッドレス CMS）は外から見えない場所にあり、このサイトとはつながっていません
+- サーバーで動くプログラムも、ログイン画面も、データベースもありません。ただの静的なファイルです
+- 外部の JavaScript・Web フォント・アクセス解析は読み込んでいません
+
+なので、何となくハッキングしている気分だけ味わってください。
+
+For would-be hackers: the `~/ikegaya/works$` prompt in the header is just decoration. Typing does nothing (only `cd posts` and `cd ../` are clickable links).
+
+- The editor (a headless CMS) lives somewhere you cannot see from the outside, and is not connected to this site
+- No server-side programs, no login page, no database. Just static files
+- No external JavaScript, web fonts or analytics
+
+So just enjoy the feeling of hacking.
+
+## 全件
+
+- 全記事（新しい順、各記事の Markdown 版へのリンク）とタグの一覧: https://works.ikegaya.tokyo/llms-full.txt
+- 実績の全件（機械向けの JSON）: https://works.ikegaya.tokyo/index.json
