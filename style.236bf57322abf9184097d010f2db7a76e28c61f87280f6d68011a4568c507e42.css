@@ -42,14 +42,6 @@ time { font-family:var(--mono); font-size:.85rem; color:var(--muted); }
 .tag:hover { text-decoration:none; filter:brightness(.95); }
 .draft { color:var(--draft); font-size:.8rem; }
 
-/* トップの直近の 3 本（カードで横並び。スマホは縦に） */
-.recent { list-style:none; padding:0; margin:.8rem 0 0; display:grid; grid-template-columns:repeat(3,1fr); gap:1.2rem; }
-.recent a { display:block; color:var(--fg); }
-.recent a:hover { text-decoration:none; }
-.recent a:hover .title { color:var(--link); }
-.recent .cover { margin:0 0 .4rem; width:100%; }
-.recent time { display:block; }
-.recent .title { display:block; font-weight:bold; font-size:.95rem; line-height:1.5; }
 .posts { list-style:none; padding:0; margin:0; }
 .posts li { padding:.8rem 0; border-bottom:1px solid var(--line);
   display:grid; grid-template-columns:1fr 9rem; gap:1rem; align-items:center; }   /* 右に記事の頭の画像を縮めて出す（note の一覧と同じ並び） */
@@ -98,8 +90,6 @@ article > .cover .cover-label-g, .newest > a > .cover .cover-label-g { transform
   article h1 { font-size:1.45rem; }
   .site-header { padding-inline:1rem; }
   .posts li { grid-template-columns:1fr 6.5rem; gap:.8rem; }
-  .recent { grid-template-columns:1fr; }
-  .recent .cover { width:100%; margin:0 0 .4rem; }
   .posts .thumb .cover { width:100%; margin:0; }
 }
 /* 固定の投稿（実績の紹介）と、その頭の分野の円グラフ（partials/works-chart.html。1280×670 の SVG の中の大きさ） */
