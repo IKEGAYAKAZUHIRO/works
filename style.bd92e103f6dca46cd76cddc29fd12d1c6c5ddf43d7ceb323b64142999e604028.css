@@ -99,6 +99,7 @@ article > .cover .cover-label-g, .newest > a > .cover .cover-label-g { transform
 .works-cover .wc-head { font-family:var(--mono); font-weight:bold; font-size:26px; fill:var(--prompt); }
 .works-cover .wc-cmd { fill:var(--fg); }
 .works-cover .wc-name { font-size:28px; font-weight:bold; }
+.works-cover .wc-hint { font-size:22px; fill:var(--muted); }   /* 左下の案内（links のときだけ） */
 .works-cover .wc-n { font-family:var(--mono); font-weight:bold; font-size:28px; fill:var(--muted); }
 /* 押せるグラフ（links）: 一切れは太く、行は名前を青く。地と真ん中は実績の一覧へ */
 .works-cover.linked a { cursor:pointer; }
