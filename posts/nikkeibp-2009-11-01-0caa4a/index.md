@@ -2,7 +2,7 @@
 
 - URL: https://works.ikegaya.tokyo/posts/nikkeibp-2009-11-01-0caa4a/
 - 公開: 2009-11-01
-- タグ: 池谷執筆, 日経ホームビルダー（休刊）, 実大実験, 阪神大震災, 耐震補強
+- タグ: 池谷執筆, 日経ホームビルダー（休刊）, 実大実験, E-ディフェンス, 阪神大震災, 耐震補強
 - この投稿を書いた人: ikegayakazuhiro（https://www.ikegaya.tokyo/ 、X: https://x.com/ikegayakazuhiro）
 - 元の仕事での関わり方: 執筆（本人が著者）
 

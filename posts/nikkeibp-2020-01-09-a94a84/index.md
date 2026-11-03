@@ -2,7 +2,7 @@
 
 - URL: https://works.ikegaya.tokyo/posts/nikkeibp-2020-01-09-a94a84/
 - 公開: 2020-01-09
-- タグ: 池谷執筆, 日経アーキテクチュア, 実大実験
+- タグ: 池谷執筆, 日経アーキテクチュア, 実大実験, E-ディフェンス
 - この投稿を書いた人: ikegayakazuhiro（https://www.ikegaya.tokyo/ 、X: https://x.com/ikegayakazuhiro）
 - 元の仕事での関わり方: 執筆（本人が著者）
 
