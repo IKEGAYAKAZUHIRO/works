@@ -17,7 +17,7 @@ There are two people whose names are written 池谷 和浩. The author of this s
 
 ## このサイトの性格
 
-書き手の仕事の記録（ポートフォリオ）。ブログではない（書き手の雑記のブログは別のサイト https://blog.ikegaya.tokyo/ 。AI 向けの案内は https://blog.ikegaya.tokyo/llms.txt ）。固定の投稿「これまでの仕事」をのぞく投稿（955 本）は、1 本につき、日経BP の媒体などに載った元の仕事 1 件を紹介する（題・掲載日・媒体・元の記事へのリンク・紹介文の引用）。本文は元の記事の転載ではない。
+書き手の仕事の記録（ポートフォリオ）。ブログではない（書き手の雑記のブログは別のサイト https://blog.ikegaya.tokyo/ 。AI 向けの案内は https://blog.ikegaya.tokyo/llms.txt ）。固定の投稿「これまでの仕事」をのぞく投稿（956 本）は、1 本につき、日経BP の媒体などに載った元の仕事 1 件を紹介する（題・掲載日・媒体・元の記事へのリンク・紹介文の引用）。本文は元の記事の転載ではない。
 
 - 実績の一覧（機械向けの JSON。全件・関わり方・媒体・元の記事の URL・分野）: https://works.ikegaya.tokyo/index.json
 - 実績の傾向（分野ごとの割合と一覧）: https://works.ikegaya.tokyo/kinds/
@@ -44,10 +44,10 @@ There are two people whose names are written 池谷 和浩. The author of this s
 
 ### 件数の読み方
 
-- データの更新: 2026-11-14（収録したいちばん新しい仕事: 2026-10-22。公開のたびに作り直す）
-- 実績（元の仕事）は 955 件（1999-08-01〜2026-10-22）。index.json の count と同じ。固定の投稿「これまでの仕事」は数えない
+- データの更新: 2026-11-14（収録したいちばん新しい仕事: 2026-11-12。公開のたびに作り直す）
+- 実績（元の仕事）は 956 件（1999-08-01〜2026-11-12）。index.json の count と同じ。固定の投稿「これまでの仕事」は数えない
 - 関わり方は 1 件に 1 つ。関わり方ごとの件数を足すと実績の件数になる
-- 媒体ごとの件数を足すと 1068 件で、実績の件数より多い。雑誌と web（日経クロステックなど）の両方に載った仕事は、どちらの媒体にも数えるため。書籍は媒体に数えない
+- 媒体ごとの件数を足すと 1069 件で、実績の件数より多い。雑誌と web（日経クロステックなど）の両方に載った仕事は、どちらの媒体にも数えるため。書籍は媒体に数えない
 
 ### 更新
 
@@ -83,6 +83,7 @@ So just enjoy the feeling of hacking.
 
 ## 記事
 
+- [【制作を担当しました】建築訴訟「ここが知りたい」：中間検査で地盤改良の未実施発覚](https://works.ikegaya.tokyo/posts/nikkeibp-2026-11-12-34c203/index.md): 2026-11-12 [池谷制作担当, 日経アーキテクチュア, 建築訴訟「ここが知りたい」] — 連載「建築訴訟「ここが知りたい」」の「中間検査で地盤改良の未実施発覚」の制作を担当しました。（日経アーキテクチュア 2026/11/12号。連載の第105回） …
 - [池谷和浩（いけがや・かずひろ）これまでの仕事](https://works.ikegaya.tokyo/posts/works/index.md): 2026-11-02 — ライター稼業を営む池谷和浩（いけがや・かずひろ）のお仕事紹介ページです。担当記事が掲載に至った情報を掲載しています。 日経BPの媒体で執筆・制作・取材に関わった …
 - [【執筆しました】不撓不屈：首里城正殿の木工事は若手主体、「遠慮するな」と励まし続けた宮大工棟梁](https://works.ikegaya.tokyo/posts/nikkeibp-2026-10-22-b9d759/index.md): 2026-10-22 [池谷執筆, 日経クロステック] — 「不撓不屈：首里城正殿の木工事は若手主体、「遠慮するな」と励まし続けた宮大工棟梁」を執筆しました。 日経クロステックの紹介文より： 2026年11月に一般公開が …
 - [【執筆しました】不撓不屈：人生2度目の首里城復元　清水建設の所長、ガラス張りの素屋根で見せる復興](https://works.ikegaya.tokyo/posts/nikkeibp-2026-10-15-6f5b7f/index.md): 2026-10-15 [池谷執筆, 日経クロステック] — 「不撓不屈：人生2度目の首里城復元　清水建設の所長、ガラス張りの素屋根で見せる復興」を執筆しました。 日経クロステックの紹介文より： 火災で焼失した首里城（那覇 …
@@ -1043,12 +1044,12 @@ So just enjoy the feeling of hacking.
 ## タグ
 
 - [池谷執筆](https://works.ikegaya.tokyo/tags/%E6%B1%A0%E8%B0%B7%E5%9F%B7%E7%AD%86/): 842 件
-- [日経アーキテクチュア](https://works.ikegaya.tokyo/tags/%E6%97%A5%E7%B5%8C%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A5%E3%82%A2/): 393 件
+- [日経アーキテクチュア](https://works.ikegaya.tokyo/tags/%E6%97%A5%E7%B5%8C%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A5%E3%82%A2/): 394 件
 - [日経ホームビルダー（休刊）](https://works.ikegaya.tokyo/tags/%E6%97%A5%E7%B5%8C%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%93%E3%83%AB%E3%83%80%E3%83%BC%E4%BC%91%E5%88%8A/): 370 件
 - [ケンプラッツ](https://works.ikegaya.tokyo/tags/%E3%82%B1%E3%83%B3%E3%83%97%E3%83%A9%E3%83%83%E3%83%84/): 161 件
 - [日経クロステック](https://works.ikegaya.tokyo/tags/%E6%97%A5%E7%B5%8C%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%86%E3%83%83%E3%82%AF/): 138 件
-- [建築訴訟「ここが知りたい」](https://works.ikegaya.tokyo/tags/%E5%BB%BA%E7%AF%89%E8%A8%B4%E8%A8%9F%E3%81%93%E3%81%93%E3%81%8C%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84/): 109 件
-- [池谷制作担当](https://works.ikegaya.tokyo/tags/%E6%B1%A0%E8%B0%B7%E5%88%B6%E4%BD%9C%E6%8B%85%E5%BD%93/): 109 件
+- [建築訴訟「ここが知りたい」](https://works.ikegaya.tokyo/tags/%E5%BB%BA%E7%AF%89%E8%A8%B4%E8%A8%9F%E3%81%93%E3%81%93%E3%81%8C%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84/): 110 件
+- [池谷制作担当](https://works.ikegaya.tokyo/tags/%E6%B1%A0%E8%B0%B7%E5%88%B6%E4%BD%9C%E6%8B%85%E5%BD%93/): 110 件
 - [実大実験](https://works.ikegaya.tokyo/tags/%E5%AE%9F%E5%A4%A7%E5%AE%9F%E9%A8%93/): 84 件
 - [住宅事件簿](https://works.ikegaya.tokyo/tags/%E4%BD%8F%E5%AE%85%E4%BA%8B%E4%BB%B6%E7%B0%BF/): 60 件
 - [木造住宅](https://works.ikegaya.tokyo/tags/%E6%9C%A8%E9%80%A0%E4%BD%8F%E5%AE%85/): 56 件
