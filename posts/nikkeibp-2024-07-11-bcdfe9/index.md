@@ -2,7 +2,7 @@
 
 - URL: https://works.ikegaya.tokyo/posts/nikkeibp-2024-07-11-bcdfe9/
 - 公開: 2024-07-11
-- タグ: 池谷執筆, 日経アーキテクチュア, 復旧
+- タグ: 池谷執筆, 日経アーキテクチュア, 復旧, 首里城
 - この投稿を書いた人: ikegayakazuhiro（https://www.ikegaya.tokyo/ 、X: https://x.com/ikegayakazuhiro）
 - 元の仕事での関わり方: 執筆（本人が著者）
 

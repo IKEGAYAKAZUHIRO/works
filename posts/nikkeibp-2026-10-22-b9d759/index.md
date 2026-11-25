@@ -2,7 +2,7 @@
 
 - URL: https://works.ikegaya.tokyo/posts/nikkeibp-2026-10-22-b9d759/
 - 公開: 2026-10-22
-- タグ: 池谷執筆, 日経クロステック
+- タグ: 池谷執筆, 日経クロステック, 首里城
 - この投稿を書いた人: ikegayakazuhiro（https://www.ikegaya.tokyo/ 、X: https://x.com/ikegayakazuhiro）
 - 元の仕事での関わり方: 執筆（本人が著者）
 
