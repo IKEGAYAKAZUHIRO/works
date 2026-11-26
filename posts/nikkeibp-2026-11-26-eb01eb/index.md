@@ -32,3 +32,10 @@
 [![首里城 火災から7年の復活劇　2度の復元に挑んだ4人の証言](https://works.ikegaya.tokyo/img/shurijo-reiwa-youtube.webp)](https://www.youtube.com/watch?v=U0RUYzYs--g)
 
 [【首里城 2度の復元に挑んだ4人】「平成の復元」当時のノートが鍵｜「復元に関わりたい」「失敗したら私が責任を取る」技術者たちの胸の内｜大火災から7年の復活劇](https://www.youtube.com/watch?v=U0RUYzYs--g)（日経クロステック【公式】）
+
+---
+
+関連記事：
+
+- [「二度と燃えない首里城」へ、大火災から7年　復元した正殿を一般公開](https://xtech.nikkei.com/atcl/nxt/column/18/00154/02988/)（2026/11/25。[投稿](https://works.ikegaya.tokyo/posts/nikkeibp-2026-11-25-41dc75/)）
+- [首里城復元、木工事6割完了](https://xtech.nikkei.com/atcl/nxt/mag/na/18/00005/070100163/)（2024/07/11。[投稿](https://works.ikegaya.tokyo/posts/nikkeibp-2024-07-11-bcdfe9/)）
