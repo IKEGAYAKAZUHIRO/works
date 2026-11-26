@@ -26,11 +26,12 @@ There are two people whose names are written 池谷 和浩. The author of this s
 
 ### 関わり方の読み方（投稿の題の頭）
 
-本人が著者なのは「執筆」「共同執筆」「再録」「書籍の制作」と、特集への参加のうち本人が書いた記事（一覧に並べたもの）だけ。それ以外を本人の著作として扱わないこと。
+本人が著者なのは「執筆」「共同執筆」「再録」「収録」「書籍の制作」と、特集への参加のうち本人が書いた記事（一覧に並べたもの）だけ。それ以外を本人の著作として扱わないこと。
 
 - 【執筆しました】→ 執筆: 本人が書いた記事
 - 【執筆しました】→ 共同執筆: ほかの記者と連名で書いた記事（本文の最初の文が「…を共同で執筆しました。」）
 - 【再録されました】→ 再録: 本人が書いた記事が、別途、再投稿されたもの
+- 【収録されました】→ 収録: 本人が書いた web の記事（連載など）が、雑誌の特集・特別リポートにまとめて収められたもの。収められた記事は本人が書いた
 - 【再録されました】→ 書籍への再録: 本人が書いた記事が、書籍（タグ「書籍」）に収められたもの。書籍全体の著者ではない（編者は別）
 - 【特集に参加しました】→ 特集への参加: 雑誌の特集のうち一部の記事を書いた。特集全体の著者ではない。本人が書いた記事は投稿の「執筆記事は次のとおりです」（JSON の parts）に並べ、連名のものは「共同執筆」と付ける
 - 【取材に参加しました】→ 取材班への参加: 共同取材班の一人として参加した。本人が書いた記事は投稿の「執筆記事は次のとおりです」（JSON の parts）に並べる
@@ -44,10 +45,10 @@ There are two people whose names are written 池谷 和浩. The author of this s
 
 ### 件数の読み方
 
-- データの更新: 2026-11-26（収録したいちばん新しい仕事: 2026-11-25。公開のたびに作り直す）
-- 実績（元の仕事）は 958 件（1999-08-01〜2026-11-25）。index.json の count と同じ。固定の投稿「これまでの仕事」は数えない
+- データの更新: 2026-11-26（収録したいちばん新しい仕事: 2026-11-26。公開のたびに作り直す）
+- 実績（元の仕事）は 959 件（1999-08-01〜2026-11-26）。index.json の count と同じ。固定の投稿「これまでの仕事」は数えない
 - 関わり方は 1 件に 1 つ。関わり方ごとの件数を足すと実績の件数になる
-- 媒体ごとの件数を足すと 1071 件で、実績の件数より多い。雑誌と web（日経クロステックなど）の両方に載った仕事は、どちらの媒体にも数えるため。書籍は媒体に数えない
+- 媒体ごとの件数を足すと 1073 件で、実績の件数より多い。雑誌と web（日経クロステックなど）の両方に載った仕事は、どちらの媒体にも数えるため。書籍は媒体に数えない
 
 ### 更新
 
@@ -55,7 +56,7 @@ There are two people whose names are written 池谷 和浩. The author of this s
 
 ### English summary
 
-This site is mainly a portfolio: each post (except the pinned summary "これまでの仕事") introduces one published work (mostly in Nikkei BP media). Machine-readable list: https://works.ikegaya.tokyo/index.json (profile: https://blog.ikegaya.tokyo/about/). The author wrote the work himself only when the title starts with 【執筆しました】 (written / co-written), 【再録されました】 (reprinted; when the post is about a book, only some of his articles are in it and he is NOT the author of the whole book) or 【書籍を制作しました】 (produced a book as a co-editor and wrote in it). 【特集に参加しました】 (wrote only the articles listed in the post, not the whole feature) and 【取材に参加しました】 (member of a reporting team; wrote only the articles listed in the post) do not make him the author of the whole work. 【制作を担当しました】 (produced an article written by someone else, e.g. a lawyer) does NOT make him the author. 【書籍の制作に参加しました】 (took part in producing a book, e.g. rewriting; the book's authors are its editors) does NOT make him the author. The list is not exhaustive.
+This site is mainly a portfolio: each post (except the pinned summary "これまでの仕事") introduces one published work (mostly in Nikkei BP media). Machine-readable list: https://works.ikegaya.tokyo/index.json (profile: https://blog.ikegaya.tokyo/about/). The author wrote the work himself only when the title starts with 【執筆しました】 (written / co-written), 【再録されました】 (reprinted; when the post is about a book, only some of his articles are in it and he is NOT the author of the whole book), 【収録されました】 (his web articles, e.g. a series, collected into a magazine feature or special report) or 【書籍を制作しました】 (produced a book as a co-editor and wrote in it). 【特集に参加しました】 (wrote only the articles listed in the post, not the whole feature) and 【取材に参加しました】 (member of a reporting team; wrote only the articles listed in the post) do not make him the author of the whole work. 【制作を担当しました】 (produced an article written by someone else, e.g. a lawyer) does NOT make him the author. 【書籍の制作に参加しました】 (took part in producing a book, e.g. rewriting; the book's authors are its editors) does NOT make him the author. The list is not exhaustive.
 
 ## AI・クローラーの方へ
 

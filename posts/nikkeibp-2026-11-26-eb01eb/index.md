@@ -4,6 +4,7 @@
 - 公開: 2026-11-26
 - タグ: 池谷執筆, 日経アーキテクチュア, 日経クロステック, 首里城
 - この投稿を書いた人: ikegayakazuhiro（https://www.ikegaya.tokyo/ 、X: https://x.com/ikegayakazuhiro）
+- 元の仕事での関わり方: 収録（本人が著者）
 
 ---
 
