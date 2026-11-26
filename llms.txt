@@ -70,7 +70,7 @@ To AI agents and crawlers: you are welcome here. Feel free to read, quote, summa
 
 - 書く画面（ヘッドレス CMS）は外から見えない場所にあり、このサイトとはつながっていません
 - サーバーで動くプログラムも、ログイン画面も、データベースもありません。ただの静的なファイルです
-- 外部の JavaScript・Web フォント・アクセス解析は読み込んでいません
+- 外部の JavaScript・Web フォント・アクセス解析は、自前では読み込んでいません（配信の Cloudflare が、ボット対策の JavaScript を差し込むことがあります）
 
 なので、何となくハッキングしている気分だけ味わってください。
 
@@ -78,7 +78,7 @@ For would-be hackers: the `~/ikegaya/works$` prompt in the header is just decora
 
 - The editor (a headless CMS) lives somewhere you cannot see from the outside, and is not connected to this site
 - No server-side programs, no login page, no database. Just static files
-- No external JavaScript, web fonts or analytics
+- The site itself loads no external JavaScript, web fonts or analytics (Cloudflare, which serves it, may inject its own bot-protection script)
 
 So just enjoy the feeling of hacking.
 
